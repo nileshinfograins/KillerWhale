@@ -1,0 +1,421 @@
+/* Theme Name: Jupiter Child Theme Theme URI: http://demos.artbees.net/jupiter5 Description: Child theme for the Jupiter theme Author: Your name here Theme URI: http://themeforest.net/user/artbees Template: jupiter Text Domain: mk_framework Domain Path: /languages/ */
+/* Sample : remove the comment and start adding your own custom CSS rules. body {
+     background-color:#fff;
+}
+ */
+ @font-face {
+     font-family: normal normal normal 14px/1 FontAwesome;
+     src: url(../fonts/fontawesome-webfont.ttf);
+}
+/*@font-face {
+     font-family: Montserrat;
+     src: url(../fonts/Montserrat-Regular.otf) format (otf) , 
+}
+*/
+/*@font-face {
+     font-family: 'Montserrat';
+     src: url('../fonts/Montserrat-Regular.otf') format('woff'), url('../fonts/Montserrat-Light.otf') format('woff'), url('../fonts/Montserrat-LightItalic.otf') format('woff'), url('../fonts/Montserrat-Bold.otf') format('otf'), url('../Montserrat-MediumItalic.otf') format('woff'), url('../fonts/Montserrat-SemiBold.otf') format('woff'), url('../fonts/Montserrat-SemiBoldItalic.otf') format('woff'), url('../fonts/Montserrat-Regular.otf') format('otf');
+}
+ */
+ body{
+     font-family: 'Montserrat', sans-serif;
+}
+ .cool_timeline h1.timeline-main-title {
+     font-weight:normal!important;
+     font-family:Montserrat!important;
+     font-size:14px!important;
+     text-align:center!important;
+}
+ .cool_timeline h4.timeline-main-title.center-block{
+     font-weight:normal!important;
+     font-family:Montserrat!important;
+     font-size:14px!important;
+     text-align:center!important;
+}
+ .cool-timeline.white-timeline:before, .cool-timeline.white-timeline.one-sided:before {
+     background-color:#025149;
+     background-image:-webkit-linear-gradient(top,#025149 0%, #025149 8%, #025149 92%, #025149 100%);
+     background-image:-moz-linear-gradient(top, #025149 0%, #025149 8%, #025149 92%, #025149 100%);
+     background-image:-ms-linear-gradient(top, #025149 0%, #025149 8%, #025149 92%, #025149 100%);
+}
+ .cool-timeline.white-timeline .timeline-year{
+     -webkit-box-shadow:0 0 0 4px white, inset 0 0 0 2px rgba(0, 0, 0, 0.05), 0 0 0 8px #025149;
+     box-shadow:0 0 0 4px white, inset 0 0 0 2px rgba(0, 0, 0, 0.05), 0 0 0 8px #025149;
+}
+.cool-timeline.white-timeline .timeline-post .iconbg-turqoise{
+     box-shadow:0 0 0 4px white, inset 0 0 0 2px #fff, 0 0 0 8px #025149;
+}
+.cool-timeline.white-timeline.compact .timeline-post .icon-color-white {
+     box-shadow:0px 0px 0 3px #025149 !Important;
+}
+ .cooltimeline_cont .center-line:before,.cooltimeline_cont .center-line:after{
+     border-color:#025149;
+}
+.cooltimeline_cont .center-line{
+     background:#025149;
+}
+ .cool-timeline.white-timeline .timeline-year{
+     background:#38aab7;
+}
+ .cool-timeline .timeline-post .timeline-content {
+     background:#c9dfe8;
+}
+ .cool-timeline .timeline-year .icon-placeholder span {
+     font-family:Montserrat!important;
+}
+ .cool-timeline .timeline-post .timeline-content h2.content-title{
+     font-size:14px!important;
+     font-family:Montserrat!important;
+     font-weight:normal!important;
+     text-transform:capitalize;
+}
+ .cool-timeline .timeline-post .timeline-content .content-details{
+     font-size:14px!important;
+     font-family:Montserrat!important;
+     font-weight:normal!important;
+}
+.cool-timeline .timeline-post .timeline-meta .meta-details{
+     font-family:Montserrat!important;
+     font-weight:normal!important;
+}
+.cool-timeline.white-timeline .timeline-post.even .timeline-content .content-title:before{
+     border-right-color:#29b246;
+}
+ .cool-timeline.white-timeline.one-sided .timeline-post.even .timeline-content .content-title:before {
+     border-right-color:#29b246;
+}
+ .cool-timeline.white-timeline .timeline-post.even .icon-dot-full, .cool-timeline.one-sided.white-timeline .timeline-post.even .icon-dot-full{
+     background:#29b246;
+}
+ .cool-timeline.white-timeline .timeline-post.even .icon-color-white, .cool-timeline.one-sided.white-timeline .timeline-post.even .icon-color-white{
+     background:#29b246;
+}
+ .cool-timeline.white-timeline .timeline-post.even .timeline-meta .meta-details{
+     color:#29b246;
+}
+ .cool-timeline.white-timeline .timeline-post.even .timeline-content .content-title{
+     background:#29b246;
+}
+ .clean-skin-tm .cool-timeline.white-timeline .timeline-post.even .timeline-content h2.content-title{
+     color:#29b246;
+}
+ .clean-skin-tm .cool-timeline.white-timeline.compact .timeline-post.ctl-left .timeline-content h2.content-title{
+     color:#29b246;
+}
+ .clean-skin-tm .cool-timeline.white-timeline.compact .timeline-post.ctl-left .timeline-content {
+     border-right:3px solid #29b246;
+     border-radius:0;
+}
+.cool-timeline.white-timeline.compact .timeline-post.ctl-left .icon-dot-full{
+     background:#29b246;
+}
+ .ultimate-style .timeline-post.timeline-mansory.ctl-left .timeline-content .content-title:after {
+     border-left-color:#29b246;
+}
+ .cool-timeline.white-timeline.compact .timeline-post.ctl-left .timeline-content .content-title,.cool-timeline.white-timeline.compact .timeline-post.ctl-left .icon-color-white{
+     background:#29b246;
+}
+ .cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title:before{
+     border-left-color:#000000;
+}
+ .cool-timeline.white-timeline.one-sided .timeline-post.odd .timeline-content .content-title:before {
+     border-right-color:#000000;
+     border-left-color:transparent;
+}
+ .cool-timeline.white-timeline .timeline-post.odd .icon-dot-full, .cool-timeline.one-sided.white-timeline .timeline-post .icon-dot-full{
+     background:#000000;
+}
+ .cool-timeline.white-timeline .timeline-post.odd .icon-color-white, .cool-timeline.one-sided.white-timeline .timeline-post .icon-color-white{
+     background:#000000;
+}
+ .cool-timeline.white-timeline .timeline-post.odd .timeline-meta .meta-details{
+     color:#000000;
+}
+ .cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title {
+     background:#000000;
+}
+ .clean-skin-tm .cool-timeline.white-timeline .timeline-post.odd .timeline-content h2.content-title {
+     color:#000000;
+}
+ .clean-skin-tm .cool-timeline.white-timeline.compact .timeline-post.ctl-right .timeline-content h2.content-title {
+     color:#000000;
+}
+ .clean-skin-tm .cool-timeline.white-timeline.compact .timeline-post.ctl-right .timeline-content {
+     border-left:3px solid #000000;
+     border-radius:0;
+}
+ .ultimate-style .timeline-post.timeline-mansory.ctl-right .timeline-content .content-title:after{
+     border-right-color:#000000;
+}
+ .cool-timeline.white-timeline.compact .timeline-post.ctl-right .timeline-content .content-title,.cool-timeline.white-timeline.compact .timeline-post.ctl-right .icon-color-white {
+     background:#000000;
+}
+.cool-timeline.white-timeline.compact .timeline-post.ctl-right .icon-dot-full{
+     background:#000000;
+}
+ @media (max-width:860px) {
+     .clean-skin-tm .cool-timeline.white-timeline.compact .timeline-post.ctl-left.even .timeline-content h2.content-title{
+         color:#29b246;
+    }
+     .clean-skin-tm .cool-timeline.white-timeline.compact .timeline-post.ctl-left.odd .timeline-content h2.content-title {
+         color:#000000;
+    }
+}
+.cool-timeline.white-timeline.compact .timeline-post .timeline-content h2.content-title{
+     font-size:14px!important;
+     font-family:Montserrat!important;
+     font-weight:normal!important;
+}
+@media (max-width:860px) {
+    .cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title:before {
+         border-right-color:#000000;
+         border-left-color:transparent;
+    }
+    .cool-timeline.white-timeline.compact .timeline-post.ctl-left.even .timeline-content .content-title,.cool-timeline.white-timeline.compact .timeline-post.ctl-left.even .icon-color-white, .cool-timeline.white-timeline.compact .timeline-post.ctl-left.even .icon-dot-full{
+         background:#29b246;
+    }
+    .cool-timeline.white-timeline.compact .timeline-post.ctl-left.odd .timeline-content .content-title,.cool-timeline.white-timeline.compact .timeline-post.ctl-left.odd .icon-color-white, .cool-timeline.white-timeline.compact .timeline-post.ctl-left.odd .icon-dot-full{
+         background:#000000;
+    }
+    .ultimate-style .timeline-post.timeline-mansory.ctl-left .timeline-content .content-title:after {
+        border-left-color:transparent;
+    }
+}
+ body {
+     background-color:#fff;
+}
+ .hb-custom-header #mk-page-introduce, .mk-header {
+     background-color:#f7f7f7;
+    background-size:cover;
+     -webkit-background-size:cover;
+    -moz-background-size:cover;
+}
+ .hb-custom-header > div, .mk-header-bg {
+     background-color:rgba(256,256,256,0.67);
+}
+ .mk-classic-nav-bg {
+     background-color:rgba(256,256,256,0.67);
+}
+ .master-holder-bg {
+     background-color:#fff;
+}
+ #mk-footer {
+     background-color:#000000;
+}
+ #mk-boxed-layout {
+     -webkit-box-shadow:0 0 px rgba(0, 0, 0, );
+     -moz-box-shadow:0 0 px rgba(0, 0, 0, );
+     box-shadow:0 0 px rgba(0, 0, 0, );
+}
+ .mk-news-tab .mk-tabs-tabs .is-active a, .mk-fancy-title.pattern-style span, .mk-fancy-title.pattern-style.color-gradient span:after, .page-bg-color {
+     background-color:#fff;
+}
+ .page-title {
+     font-size:20px;
+     color:#4d4d4d;
+     text-transform:uppercase;
+     font-weight:400;
+     letter-spacing:2px;
+}
+ .page-subtitle {
+     font-size:14px;
+     line-height:100%;
+     color:#a3a3a3;
+     font-size:14px;
+     text-transform:none;
+}
+ .header-style-1 .mk-header-padding-wrapper, .header-style-2 .mk-header-padding-wrapper, .header-style-3 .mk-header-padding-wrapper {
+     padding-top:110px;
+}
+ body {
+     font-family:Montserrat 
+}
+ @font-face {
+     font-family:'star';
+     src:url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot');
+     src:url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot?#iefix') format('embedded-opentype'), url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.woff') format('woff'), url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.ttf') format('truetype'), url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.svg#star') format('svg');
+     font-weight:normal;
+     font-style:normal;
+}
+ @font-face {
+     font-family:'WooCommerce';
+     src:url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot');
+     src:url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot?#iefix') format('embedded-opentype'), url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.woff') format('woff'), url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.ttf') format('truetype'), url('http://canadavapestore.com/killer/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.svg#WooCommerce') format('svg');
+     font-weight:normal;
+     font-style:normal;
+}
+.mk-header-padding-wrapper {
+     padding-top:0px !important;
+}
+ .mk-toolbar-holder {
+     float:right !important;
+}
+ i.mk-svg-icon-wrapper {
+     display:none !important;
+}
+ #gform_1 {
+     text-align:center !important;
+     margin-top:-37px !important;
+}
+ #gform_submit_button_1 {
+     background-color:#7cb736 !important;
+     width:20% !important;
+     height:15% !important;
+     border-radius:5px;
+}
+ .page-id-7 #input_1_1 {
+     width:50% !important;
+     height:47px !important;
+     border:1px solid #000 !important;
+}
+ #social-2 {
+     margin:-2px !important;
+}
+ .tmm_member {
+     background-color:#f7f7f7 !important;
+}
+ li#menu-item-209 {
+     background-color:#7cb736 !important;
+    /*width:28% !important;
+     */
+    border-radius:2px !important;
+     padding:4px !important;
+}
+ .mk-desktop-logo.dark-logo {
+     margin-top:-17px !important;
+}
+ .timeline-main-title.center-block {
+     display:none !important;
+}
+ .filter-faq.fancy-style {
+     display:none !important;
+}
+ .mk-toggle-title {
+     color:#fff !important;
+}
+ .mk-toggle-title:hover {
+     color:#000 !important;
+}
+ .mk-faq-container.fancy-style-wrapper .mk-toggle .mk-toggle-title {
+     padding:7px !important;
+}
+ .mk-svg-icon {
+     top:10px !important;
+}
+ .wpb_content_element {
+     margin-bottom: 0;
+}
+ .gform_footer.top_label {
+     padding-bottom: 20px;
+     padding-top: 15px;
+}
+ .mk-svg-icon{
+     top: 2px !important;
+     float: left;
+}
+ #mk-footer .widget-sub-navigation ul li a, #mk-footer .widget_nav_menu ul li a {
+     padding: 5px 15px 5px 2px !important;
+}
+ #mk-footer [class*='mk-col-'] {
+     padding: 0 1%;
+}
+ #social-5aa0c707b8011 a {
+     background-color: #7cb736;
+     padding: 0px;
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     line-height: 1.8;
+     display: inline-block;
+     margin: 0 8px 0 0;
+     color: #000;
+     opacity: 1;
+}
+ #social-networks-33 a {
+     background-color: #7cb736;
+     color: #fff;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     line-height: 1.5;
+     font-size: 20px;
+}
+ #social-networks-33 a:hover{
+     background-color:#eeeeee;
+}
+ .gform_fields li{
+     list-style: none;
+     margin-top: 50px;
+}
+ #social-networks-33 {
+     padding-bottom: 30px;
+}
+/* Dropdown Button */
+ .dropbtn {
+     background-color: #fff;
+     color: #333;
+     padding: 6px 10px;
+     font-size: 14px;
+     border: none;
+     cursor: pointer;
+     border: 1px solid #ddd;
+     margin-top: 5px;
+     width: 150px;
+}
+ .admin-drop {
+     padding-top: 13px !important;
+     padding-left: 0;
+     line-height: 2;
+     text-indent: 30px;
+}
+/* Dropdown button on hover & focus */
+ .dropbtn:focus {
+     background-color: #fff;
+     box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+     color: #333;
+}
+/* The container <div> - needed to position the dropdown content */
+ .dropdown {
+     position: relative;
+     display: inline-block;
+}
+ .dropbtn img {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     float: left;
+}
+/* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #fff;
+     min-width: 150px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+     box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+ #myDropdown i {
+     padding-right: 7px;
+     color: #333;
+}
+/* Links inside the dropdown */
+ .dropdown-content a {
+     color: black;
+     padding: 1px 12px;
+     text-decoration: none;
+     display: block;
+}
+/* Change color of dropdown links on hover */
+ .dropdown-content a:hover {
+    background-color: #ddd;
+     color: #333;
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+ .show {
+    display:block;
+}
+#gtranslate_selector {
+    border: 1px solid #ddd;
+    padding: 5px 0;
+}
